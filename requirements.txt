@@ -1,0 +1,6 @@
+ipython==7.27.0
+keras-lr-finder==0.1
+lime==0.2.0.1
+opencv-python==4.5.3.56
+seaborn==0.11.2
+tensorflow==2.6.0
