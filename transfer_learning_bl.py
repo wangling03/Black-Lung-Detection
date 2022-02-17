@@ -19,20 +19,20 @@ def data_preparation(path, image_size):
     normal_images = np.array(normal_images)
     print('number of normal chest xrays:', len(normal_images))
 
-    covid_images = list()
+    bl_images = list()
     for img_name in glob.glob(pathname=path + '/bl/*'):
         img = load_img(path=img_name, color_mode='grayscale')
         img = img_to_array(img=img, data_format='channels_last')
         covid_images.append(img)
 
-    covid_images = np.array(covid_images)
+    bl_images = np.array(bl_images)
     print('number of black lung chest xrays:', len(covid_images))
 
     normal_labels = [0 for _ in range(len(normal_images))]
-    covid_labels = [1 for _ in range(len(covid_images))]
+    bl_labels = [1 for _ in range(len(bl_images))]
 
-    X = np.concatenate((covid_images, normal_images))
-    y = np.array(covid_labels + normal_labels)
+    X = np.concatenate((bl_images, normal_images))
+    y = np.array(bl_labels + normal_labels)
 
     X = np.array([cv2.resize(image, dsize=image_size, interpolation=cv2.INTER_CUBIC) for image in X])
     X = np.array([np.expand_dims(a=image, axis=-1) for image in X])
