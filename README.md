@@ -13,6 +13,8 @@ The history of loss and accuracy plot for 50 epochs is:
 
 ![alt text](https://github.com/wangling03/Black-Lung-Detection/blob/main/Figure%202022-02-21%20130843_2.png?raw=true)
 
+The classfication reports are:
 
+![alt text](https://github.com/wangling03/Black-Lung-Detection/blob/main/Figure%202022-02-21%20130843_2.png?raw=true)
 
 
