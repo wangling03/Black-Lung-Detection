@@ -6,3 +6,5 @@ Fifty-five Chest X-Ray diagnosed with pneumoconioses from B-reader Syllabus and 
 The CHest X-rays were enhanced using Bi-Histogram Equalization with Adaptive Sigmoid Functions algorithm (BEASF) and Contrast Limiting Adaptive Histogram Equalization (CLAHE). 
 
 The confusion matrix of the test is:
+
+![plot](./Black-Lung-Detection/blob/main/Figure%202022-02-21%20112114.png)
