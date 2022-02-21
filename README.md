@@ -11,7 +11,7 @@ The confusion matrix of the test set is:
 
 The history of loss and accuracy plot for 50 epochs is:
 
-![alt text](https://github.com/wangling03/Black-Lung-Detection/blob/main/Figure%202022-02-21%20130843.png?raw=true)
+![alt text](https://github.com/wangling03/Black-Lung-Detection/blob/main/Figure%202022-02-21%20130843_2.png?raw=true)
 
 
 
